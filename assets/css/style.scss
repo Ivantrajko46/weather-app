@@ -57,10 +57,11 @@ div.container-weather {
         // color: rgba(200, 200, 200, .6);
     }
     width: 85%;
-    height: 77%;
+    height: 100%;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
+    padding-top: 100px;
 
     div.current-name-location {
         align-self: flex-start;
@@ -72,6 +73,7 @@ div.container-weather {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 30px;
 
         .name {
             font-size: 2rem;
@@ -88,6 +90,7 @@ div.container-weather {
         justify-content: space-between;
         width: 100%;
         height: 100%;
+        margin-top: 35px;
 
         .left {
             display: flex;
