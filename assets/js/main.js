@@ -59,7 +59,7 @@ $(function() {
             let curentlyRight = $('.current-temperature .right');
 
             curentlyLeft.find('.temperature').html(`${Math.floor(data.currently.temperature)} &#8451;`);
-            curentlyLeft.find('.temperature-2').html(`${data.currently.summary}`);
+            // curentlyLeft.find('.temperature-2').html('');
 
             curentlyRight.find('ul li.mba span').html(`${Math.floor(data.currently.pressure)} mba`);
             curentlyRight.find('ul li.humedity span').html(`${Math.floor(data.currently.humidity * 100)} %`);
