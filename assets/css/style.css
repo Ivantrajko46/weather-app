@@ -236,3 +236,14 @@ div.input-address {
     font-size: 50px !important; }
   .current-temperature .right li i {
     font-size: 35px !important; } }
+
+@media (max-height: 500px) {
+  .container-weather .current-name-location {
+    margin-bottom: 20px; }
+  .container-weather .current-temperature .right ul {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important; }
+  .container-weather .current-temperature .left .temperature {
+    font-size: 50px !important; } }

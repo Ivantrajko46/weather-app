@@ -63,7 +63,7 @@ $(function() {
 
             curentlyRight.find('ul li.mba span').html(`${Math.floor(data.currently.pressure)} mba`);
             curentlyRight.find('ul li.humedity span').html(`${Math.floor(data.currently.humidity * 100)} %`);
-            curentlyRight.find('ul li.wind span').html(`${Math.floor(data.currently.windSpeed * 10)} m/s`);
+            curentlyRight.find('ul li.wind span').html(`${Math.floor(data.currently.windSpeed * 1)} m/s`);
 
 
 

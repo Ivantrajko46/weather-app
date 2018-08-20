@@ -233,3 +233,23 @@ div {
         }
     }
 }
+
+@media (max-height: 500px) {
+    .container-weather {
+        .current-name-location {
+            margin-bottom: 20px;
+        }
+        .current-temperature {
+            .right {
+                ul {
+                    flex-direction: row !important;
+                }
+            }
+            .left {
+            .temperature {
+                font-size: 50px !important;
+            }
+        }
+        }
+    }
+}
